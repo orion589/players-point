@@ -1,0 +1,7 @@
+  <form class="form">
+    <mat-form-field class="input-wrapper">
+      <mat-label>Введите имя игрока</mat-label>
+      <input matInput placeholder="Например, Василий" [(ngModel)]="newPlayer" [ngModelOptions]="{standalone: true}" (keydown.enter)="addNewPlayer()">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="addNewPlayer()">Добавить</button>
+  </form>

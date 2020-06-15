@@ -1,0 +1,11 @@
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.input-wrapper {
+  margin-right: 2rem;
+  width: 300px;
+}

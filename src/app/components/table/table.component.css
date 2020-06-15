@@ -1,0 +1,27 @@
+:host {
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  padding: 1rem;
+}
+
+.actions__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6px;
+}
+
+.actions__col-title {
+  text-align: center;
+}
